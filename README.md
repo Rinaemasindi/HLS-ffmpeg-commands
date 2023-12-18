@@ -13,7 +13,7 @@ ffmpeg -i output_1080p.mp4 -codec: copy -start_number 0 -hls_time 10 -hls_list_s
 ## Master m3u8 file
 
 #EXTM3U\
-#EXT-X-VERSION:3\
+#EXT-X-VERSION:3
 
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=854x480\
 output_480p.m3u8
